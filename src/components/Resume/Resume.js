@@ -34,7 +34,7 @@ function Resume() {
       <Particle />
       <Container>
         <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button variant="primary" href={pdf} target="_blank">
+          <Button variant="primary" href={'google.com'/*pdf*/} target="_blank">
             <i className="fas fa-download">&nbsp;</i>Download CV
           </Button>
         </Row>
@@ -93,7 +93,7 @@ function Resume() {
           </Col>
         </Row>
         <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button variant="primary" href={pdf} target="_blank">
+          <Button variant="primary" href={'google.com'/*pdf*/} target="_blank">
             <i className="fas fa-download">&nbsp;</i>Download CV
           </Button>
         </Row>
