@@ -1,5 +1,4 @@
-# Name of the workflow
-name: github pages deployment
+name: gh-pages deployment
 
 on:
   push:
@@ -21,6 +20,8 @@ jobs:
     - name: Install Dependencies
         run: npm i
     
-    # Building the site (static web pages)
+    - name: Run Predeploy
+      run: npm run predeploy
+
     - name: Run Deploy
       run: npm run deploy
