@@ -18,7 +18,7 @@ jobs:
         node-version: '12'
     
     - name: Install Dependencies
-        run: npm i
+      run: npm i
     
     - name: Run Predeploy
       run: npm run predeploy
