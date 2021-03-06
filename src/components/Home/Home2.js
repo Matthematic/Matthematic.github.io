@@ -6,6 +6,24 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Tilt from "react-parallax-tilt";
 
 function Home2() {
+
+
+  const languages = ['Javascript', 'HTML/CSS', 'C++', 'Java', 'Ruby'].map(l => (
+    <>
+      <b className="purple">{l}</b>,&nbsp;
+    </>
+  ));
+  const frameworks = ['React', 'Redux/Redux-saga', 'Node.js', 'Ruby On Rails'].map(l => (
+    <>
+      <b className="purple">{l}</b>,&nbsp;
+    </>
+  ));
+  const tools = ['Git', 'Jest', 'Webdriver.io', 'Webpack', 'JUnit'].map(l => (
+    <>
+      <b className="purple">{l}</b>,&nbsp;
+    </>
+  ));
+
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
@@ -15,32 +33,29 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I'm a Software Engineer at Cerner Corporation in Kansas City, MO. Mainly a frontend engineer, but I have an aptitude for learning quickly and
+              am known to continually innovate and simplify.
               <br />
-              <br />I am fluent in classics like
+              <br />Skills
               <i>
-                <b className="purple"> C++, Python and Javascript. </b>
+                Languages: {languages}<br />
+                Frameworks: {frameworks}<br />
+                Tools: {tools}
               </i>
               <br />
               <br />
               My current focus is on &nbsp;
               <i>
                 <b className="purple">
-                  Deep Learning and Natural Language Processing.
+                  Modern Javascript Frameworks
+                </b>
+                &nbsp;and&nbsp;
+                <b className="purple">
+                  Improving/inventing relevant developer tools.
                 </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with
-              <i>
-                <b className="purple"> Modern Javascript Frameworks</b>
-              </i>
-                &nbsp; like
-              <i>
-                <b className="purple"> Node.js and React.js</b>
-              </i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -58,37 +73,27 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/Matthematic"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <i className="fab fa-github"></i>
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://www.linkedin.com/in/matthewcarr0317/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <i className="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <i className="fab fa-linkedin-in"></i>
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/s.o.u.m.y.a_j.i.t/"
+                  href="https://www.instagram.com/matt.carrrrr"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

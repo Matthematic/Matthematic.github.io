@@ -9,6 +9,28 @@ import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 
 function About() {
+
+  const skills = [
+    "devicon-cplusplus-line",
+    "devicon-javascript-plain ",
+    "devicon-nodejs-plain-wordmark ",
+    "devicon-react-original-wordmark",
+    "devicon-git-plain-wordmark",
+    "devicon-redux-original",
+    "devicon-babel-plain",
+    "devicon-java-plain-wordmark",
+    "devicon-sass-original",
+    "devicon-webpack-plain-wordmark",
+  ].map(x => (<Techstack iconName={x} />));
+
+  const tools = [
+    "devicon-linux-plain",
+    "cib-visual-studio-code",
+    "cib-postman",
+    "devicon-docker-plain",
+    "devicon-jenkins-line",
+  ].map(x => (<Techstack iconName={x} />));
+
   return (
     <Container fluid className="about-section">
       <Particle />
@@ -23,7 +45,7 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I'M</strong>
+              Know Who <strong className="purple">I Am</strong>
             </h1>
             <Aboutcard />
           </Col>
@@ -39,28 +61,13 @@ function About() {
           Professional <strong className="purple">Skillset </strong>
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-          <Techstack iconName="devicon-cplusplus-line" />
-          <Techstack iconName="devicon-python-plain-wordmark " />
-          <Techstack iconName="cib-pytorch" />
-          <Techstack iconName="cib-tensorflow" />
-          <Techstack iconName="devicon-javascript-plain " />
-          <Techstack iconName="devicon-nodejs-plain-wordmark " />
-          <Techstack iconName="devicon-express-original-wordmark" />
-          <Techstack iconName="devicon-react-original-wordmark" />
-          <Techstack iconName="devicon-mongodb-plain-wordmark" />
-          <Techstack iconName="devicon-git-plain-wordmark" />
-          <Techstack iconName="devicon-bootstrap-plain-wordmark" />
+          { skills }
         </Row>
         <h1 className="project-heading">
           <strong className="purple">Tools</strong> I use
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-          <Techstack iconName="devicon-linux-plain" />
-          <Techstack iconName="cib-visual-studio-code" />
-          <Techstack iconName="cib-anaconda" />
-          <Techstack iconName="cib-postman" />
-          <Techstack iconName="cib-zeit" />
-          <Techstack iconName="cib-heroku" />
+          { tools }
         </Row>
         <Github />
       </Container>

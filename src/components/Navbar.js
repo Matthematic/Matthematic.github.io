@@ -30,9 +30,9 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/">
+        {/* <Navbar.Brand href="/">
           <img src={logo} className="img-fluid logo" alt="brand" />
-        </Navbar.Brand>
+        </Navbar.Brand> */}
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
@@ -68,7 +68,7 @@ function NavBar() {
                 <i className="fab fa-codepen"></i> Projects
               </Nav.Link>
             </Nav.Item>
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/resume"
@@ -76,11 +76,11 @@ function NavBar() {
               >
                 <i className="far fa-file-alt"></i> Resume
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/soumyajit4419/Portfolio"
+                href="https://github.com/Matthematic/Matthematic.github.io"
                 target="_blank"
                 className="fork-btn-inner"
               >
