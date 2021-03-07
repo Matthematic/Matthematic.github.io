@@ -27,5 +27,8 @@ jobs:
     - name: Run Predeploy
       run: npm run predeploy
 
-    - name: Run Deploy
-      run: npm run deploy
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: master
