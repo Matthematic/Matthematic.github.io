@@ -11,6 +11,10 @@ jobs:
     name: Deploy to gh-pages
     runs-on: ubuntu-latest
     steps:
+    - name: Author Identity
+      run: |
+        git config --global user.email "matthewcarrmst@gmail.com"
+        git config --global user.name "Matthew Carr"
     - uses: actions/checkout@v2
       name: Setup Node.js
     - uses: actions/setup-node@v1
