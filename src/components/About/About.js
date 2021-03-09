@@ -15,20 +15,23 @@ function About() {
     "devicon-javascript-plain ",
     "devicon-nodejs-plain-wordmark ",
     "devicon-react-original-wordmark",
-    "devicon-git-plain-wordmark",
     "devicon-redux-original",
     "devicon-babel-plain",
     "devicon-java-plain-wordmark",
     "devicon-sass-original",
-    "devicon-webpack-plain-wordmark",
+    "devicon-d3js-plain",
+    "devicon-ruby-plain-wordmark",
   ].map(x => (<Techstack iconName={x} />));
 
   const tools = [
-    "devicon-linux-plain",
-    "cib-visual-studio-code",
+    "devicon-git-plain-wordmark",
+    "devicon-ubuntu-plain-wordmark",
+    "devicon-visualstudio-plain",
     "cib-postman",
-    "devicon-docker-plain",
-    "devicon-jenkins-line",
+    "devicon-docker-plain-wordmark",
+    "devicon-jenkins-plain",
+    "devicon-heroku-plain-wordmark",
+    "devicon-webpack-plain-wordmark",
   ].map(x => (<Techstack iconName={x} />));
 
   return (

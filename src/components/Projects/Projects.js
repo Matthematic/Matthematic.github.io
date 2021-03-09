@@ -27,7 +27,7 @@ function Projects() {
               imgPath={slice}
               isBlog={false}
               title="Slice Slice Baby"
-              description="A custom Discord music bot called Homeslice that doesnt suck."
+              description="A custom Discord music bot called that I created with custom features for my personal use. It also serves as a test bench for me to experiment with the fundamentals of cloud deployments, security, load balancing, etc."
               link="https://github.com/Matthematic/Slice-Slice-Baby"
             />
           </Col>
@@ -49,6 +49,16 @@ function Projects() {
               title="Folder Notes"
               description="A package for the Atom editor that allows you to put notes on the file tree"
               link="https://github.com/Matthematic/FolderNotes"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={atom}
+              isBlog={false}
+              title="Tracing-Reporter (TODO)"
+              description="A node module I made to support tracing tests to application requirements. I originally developed it as an internal tool for my day job, but I've re-listed it here in case its useful to others."
+              link="https://github.com/Matthematic"
             />
           </Col>
         </Row>

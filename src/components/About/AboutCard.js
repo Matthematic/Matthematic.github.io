@@ -6,12 +6,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function AboutCard() {
 
   const hobbies = [
-    "Competitive Armwrestling (Seriously! It's a thing!)",
+    "Competitive Armwrestling (It's a thing)",
     "3D Printing",
     "Video Games",
-    "Archery",
-    "Grip Sports (also a thing!)",
-    "Dad Jokes"
+    "Grip Sports (also a thing)"
   ].map(h => (
     <li className="about-activity">
       <i className="far fa-hand-point-right"></i> {h}
@@ -24,10 +22,10 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Matthew Carr </span>
             from <span className="purple"> Kansas City, MO.</span>
-            <br />I am {Number(new Date().getFullYear()) - 1993} years old pursing a long career in software development.
+            <br />I am {Number(new Date().getFullYear()) - 1993} years old pursuing a long career in software development.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Apart from coding, some other activities that I love to do:
           </p>
           <ul>
             {hobbies}

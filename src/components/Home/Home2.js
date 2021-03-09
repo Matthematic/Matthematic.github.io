@@ -51,7 +51,7 @@ function Home2() {
                 </b>
                 &nbsp;and&nbsp;
                 <b className="purple">
-                  Improving/inventing relevant developer tools.
+                  Creating cool bots/extensions for things.
                 </b>
               </i>
               <br />
