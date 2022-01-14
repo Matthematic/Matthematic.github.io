@@ -56,9 +56,9 @@ function Projects() {
             <ProjectCard
               imgPath={atom}
               isBlog={false}
-              title="Tracing-Reporter (TODO)"
-              description="A node module I made to support tracing tests to application requirements. I originally developed it as an internal tool for my day job, but I've re-listed it here in case its useful to others."
-              link="https://github.com/Matthematic"
+              title="Tracing-Reporter"
+              description="A node module I made to support tracing tests to application requirements. I originally developed it as an internal tool for my day job, but I've open-sourced it just in case its useful to others."
+              link="https://matthematic.github.io/tracing-reporter"
             />
           </Col>
         </Row>
