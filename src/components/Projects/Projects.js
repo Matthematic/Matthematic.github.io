@@ -48,7 +48,7 @@ function Projects() {
               isBlog={false}
               title="Folder Notes"
               description="A package for the Atom editor that allows you to put notes on the file tree"
-              link="https://github.com/Matthematic/FolderNotes"
+              link="https://atom.io/packages/folder-notes"
             />
           </Col>
 
