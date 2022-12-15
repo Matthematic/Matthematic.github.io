@@ -10,7 +10,7 @@ import Type from "./Type";
 function Home() {
   return (
     <section>
-      <Container fluid className="home-section" id="home">
+      <Container fluid className="home-section full-screen-page" id="home">
         <Particle />
         <Container className="home-content">
           <Row>

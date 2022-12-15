@@ -35,7 +35,7 @@ function About() {
   ].map(x => (<Techstack iconName={x} />));
 
   return (
-    <Container fluid className="about-section">
+    <Container fluid className="about-section full-screen-page">
       <Particle />
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
@@ -64,13 +64,13 @@ function About() {
           Professional <strong className="purple">Skillset </strong>
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-          { skills }
+          {skills}
         </Row>
         <h1 className="project-heading">
           <strong className="purple">Tools</strong> I use
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-          { tools }
+          {tools}
         </Row>
         <Github />
       </Container>

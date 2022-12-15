@@ -62,13 +62,22 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
+                to="/education"
+                onClick={() => updateExpanded(false)}
+              >
+                <i className="far fa-user"></i> Education
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
                 <i className="fab fa-codepen"></i> Projects
               </Nav.Link>
             </Nav.Item>
-            {/* <Nav.Item>
+            <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/resume"
@@ -76,7 +85,7 @@ function NavBar() {
               >
                 <i className="far fa-file-alt"></i> Resume
               </Nav.Link>
-            </Nav.Item> */}
+            </Nav.Item>
 
             <Nav.Item className="fork-btn">
               <Button

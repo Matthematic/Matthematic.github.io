@@ -33,8 +33,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I'm a Software Engineer at Cerner Corporation in Kansas City, MO. Mainly a frontend engineer, but I have an aptitude for learning quickly and
-              am known to continually innovate and simplify.
+              I'm a Software Engineer at Oracle. My main skills are front-end, but I have a dangerous curiosity and a love of learning.
               <br />
               <br />Skills
               <i>

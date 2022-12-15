@@ -1,17 +1,7 @@
 html {
-  --section-background-color: linear-gradient(
-    to bottom left,
-    rgba(17, 16, 16, 0.582),
-    rgba(12, 8, 24, 0.904)
-  );
 
-  --image-gradient: linear-gradient(
-    to bottom left,
-    rgba(17, 16, 16, 0.678),
-    rgba(12, 10, 22, 0.863)
-  );
 
-  --imp-text-color: #c770f0;
+  --imp-text-color: #70f0db;
 }
 
 .purple {
@@ -617,6 +607,22 @@ html {
   padding-left: 80px !important;
 }
 
+
+/* --------- */
+/* Education */
+/* --------- */
+.education-section {
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 30px !important;
+  background-image: var(--section-background-color) !important;
+  color: white !important;
+}
+
+
+.full-screen-page {
+  height: 100%;
+}
 @media (max-width: 767px) {
   .resume-left {
     padding-right: 15px !important;
@@ -678,6 +684,10 @@ html {
   border: 2px solid #8a49a8;
 }
 
+.react-pdf__Page__canvas {
+  display: inline !important;
+}
+
 .like-item {
   padding-top: 10px !important;
   font-size: 1.1em !important;
@@ -733,4 +743,25 @@ html {
 }
 .fork-btn-inner::after {
   display: none !important;
+}
+
+
+.award-cert {
+  height: 225px;
+  width: 291px;
+  transition: scale 0.5s;
+  position:relative;
+  left: 60px;
+}
+
+.award-cert:hover {
+  scale: 2.5;
+  z-index: 99999;
+}
+
+.award-img {
+  height: 225px;
+  width: 225px;
+  position:relative;
+  left: -100px;
 }
